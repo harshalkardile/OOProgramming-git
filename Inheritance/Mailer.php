@@ -13,7 +13,7 @@ class UserMailer extends Mailer {
     public function sendWelcomeEmail(User $user)
     {
     
-        return $this -> send($user -> email)
+        return $this->send($user->email);
     }
     
 }
