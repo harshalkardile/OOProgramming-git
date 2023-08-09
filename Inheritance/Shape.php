@@ -2,7 +2,7 @@
 
 class Shape{
     protected $length= 4;
-    
+
     public function getArea()
     {
     return pow($this -> length, 2);
